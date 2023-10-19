@@ -29,7 +29,7 @@ cd hangman
 2. Run the Hangman game by executing the following command:
 python milestone_5.py
 
-This will start the game in your terminal.
+   This will start the game in your terminal.
 
 3. Follow the on-screen instructions to play the game. You will be prompted to guess letters to complete the hidden word. You have a limited number of attempts to guess the word correctly.
 
