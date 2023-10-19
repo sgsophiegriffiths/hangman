@@ -1,6 +1,7 @@
 import random
 
-word_list = ["Apple", "Pear", "Orange", "Watermelon", "Peach"]
+#word_list = ["apple", "pear", "orange", "watermelon", "peach"]
+word_list = ["apple"]
 
 class Hangman:
     def __init__(self, word_list, num_lives=5):
@@ -20,11 +21,14 @@ class Hangman:
             for char in range(0, len(self.word)):
                 if guess == self.word[char]:
                     self.word_guessed[char] = guess
-                    self.word_guessed = "".join(self.word_guessed)
-                    print(self.word_guessed)
-                    self.num_letters -= 1
+                    #self.word_guessed = "".join(self.word_guessed)
+            print(self.word_guessed)
+            self.num_letters -= 1
+            print(f"You have {self.num_lives} goes left")
         else:
             print(f"Sorry, {guess} is not in the word. Try again.")
+            self.num_lives -= 1
+            print(f"You have {self.num_lives} goes left")
     
 
     def ask_for_input(self):
