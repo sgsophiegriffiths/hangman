@@ -2,10 +2,10 @@
 
 # Hangman Game Repository
 
-Welcome to the Hangman Game repository! This repository contains a simple implementation of the classic word-guessing game in Python.
+Welcome to the Hangman Game repository! This repository contains a simple implementation of the classic word-guessing game in Python.<br />
 Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.<br />
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. <br /> 
-You can download and play the game on your local machine by following the instructions below.
+You can download and play the game on your local machine by following the instructions below.<br />
 
 ## How to Download and Play Hangman
 
@@ -47,7 +47,6 @@ If you'd like to contribute to this project or report issues, please follow thes
    
 
 ## License
-This Hangman game is released under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as per the terms of the license.
-
+This Hangman game has no licensing.
 
 Have fun playing Hangman!
