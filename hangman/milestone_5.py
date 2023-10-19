@@ -42,7 +42,7 @@ class Hangman:
         if self.num_letters == 0:
             print("Congratulations. You won the game!")
         else:
-            print("You lost!")
+            print(f"You lost! The word was {self.word}")
     
 def play_game(word_list):
     game = Hangman(word_list, num_lives=5)
@@ -52,5 +52,3 @@ def play_game(word_list):
 play_game(word_list)        
 
 
-
-# hangman_game = Hangman(word_list)
