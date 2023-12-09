@@ -19,7 +19,7 @@ Before you get started, ensure that you have the following prerequisites install
 2. Navigate to the directory where you want to store the Hangman repository.
 
 3. Clone the repository to your local machine by running the following command:
-git clone https://github.com/yourusername/hangman.git
+git clone https://github.com/sgsophiegriffiths/hangman.git
 
 
 ### Running the Game
