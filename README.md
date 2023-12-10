@@ -7,6 +7,17 @@ Hangman is a classic game in which a player thinks of a word and the other playe
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. <br /> 
 You can download and play the game on your local machine by following the instructions below.<br />
 
+File Tree Diagram
+```
+├───README.md
+├───.gitignore
+├───hangman
+│   ├───milestone_2.py
+│   ├───milestone_3.py
+│   ├───milestone_4.py
+│   └───milestone_5.py
+```
+
 ## How to Download and Play Hangman
 
 ### Prerequisites
@@ -24,16 +35,19 @@ git clone https://github.com/sgsophiegriffiths/hangman.git
 
 ### Running the Game
 1. Navigate to the Hangman repository directory:
+```
 cd hangman
-
-2. Run the Hangman game by executing the following command:
+```
+3. Run the Hangman game by executing the following command:
+```
 python milestone_5.py
+```
 
    This will start the game in your terminal.
 
-3. Follow the on-screen instructions to play the game. You will be prompted to guess letters to complete the hidden word. You have a limited number of attempts to guess the word correctly.
+4. Follow the on-screen instructions to play the game. You will be prompted to guess letters to complete the hidden word. You have a limited number of attempts to guess the word correctly.
 
-4. Enjoy playing Hangman!
+5. Enjoy playing Hangman!
    
 
 ## Contributing
